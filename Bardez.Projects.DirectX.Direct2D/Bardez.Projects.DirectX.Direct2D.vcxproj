@@ -256,6 +256,9 @@
     <ClCompile Include="Stroke Style.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="ReusableCode">
+      <HintPath>..\packages\Bardez.ReusableCode.1.0.0\lib\net40\ReusableCode.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -266,6 +269,9 @@
     <ProjectReference Include="..\..\..\Entities\Basic Structures\Basic Structures.csproj">
       <Project>{257201a0-0b65-4ea0-ac04-0b8005aecc37}</Project>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
