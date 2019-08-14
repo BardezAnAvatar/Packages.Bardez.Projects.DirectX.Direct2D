@@ -270,6 +270,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Bardez.Projects.DirectX.Direct2D.nuspec" />
     <None Include="Bardez.Projects.DirectX.Direct2D.props" />
     <None Include="packages.config" />
   </ItemGroup>

@@ -324,5 +324,6 @@
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="Bardez.Projects.DirectX.Direct2D.props" />
+    <None Include="Bardez.Projects.DirectX.Direct2D.nuspec" />
   </ItemGroup>
 </Project>
