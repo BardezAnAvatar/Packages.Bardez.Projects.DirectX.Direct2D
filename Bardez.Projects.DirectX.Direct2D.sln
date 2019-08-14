@@ -5,6 +5,13 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bardez.Projects.DirectX.Direct2D", "Bardez.Projects.DirectX.Direct2D\Bardez.Projects.DirectX.Direct2D.vcxproj", "{44208309-EFE3-4A6F-B0F8-9013A16B20DF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8509D3CB-6BF0-4B04-ACA4-90B3FA26C0EA}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		Constant Rebuild Note.txt = Constant Rebuild Note.txt
+		Dependencies.txt = Dependencies.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
